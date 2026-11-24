@@ -40,9 +40,9 @@
 /*THIS IS THE THEME STYLES, DON'T EDIT THEM IF YOU DON'T KNOW WHAT YOU DO, THEME SETTINGS CAN BE FOUND ABOVE*/
 
 /*#region Message*/
-.message-2CShn3:not(.systemMessage-1H1Z20) {
+.message_SY_P2T:not(.systemMessage_SY_P2T) {
   background: var(--cb-bubble-background);
-  
+
   margin-left: 4.5rem;
   margin-top: .125rem;
   margin-bottom: .125rem;
@@ -55,50 +55,50 @@
   border-radius: var(--cb-bubble-corner-radius);
 }
 
-.avatar-2e8lTP,
-.avatarDecoration-34OC0G,
-.timestampVisibleOnHover-9PEuZS { /* Fix avatar, avatar decoration, timestamp position */
+.avatar_2i8Bfm,
+.avatarDecoration_2i8Bfm,
+.timestampVisibleOnHover_2i8Bfm { /* Fix avatar, avatar decoration, timestamp position */
   margin-left: -4.5rem;
 }
 
-.repliedMessage-3Z6XBG + .contents-2MsGLg > .avatar-2e8lTP { /* Set avatar position near answer message */
+.repliedMessage_2i8Bfm + .contents_2i8Bfm > .avatar_2i8Bfm { /* Set avatar position near answer message */
   margin-top: -40px;
 }
-.repliedMessage-3Z6XBG + .contents-2MsGLg > .avatarDecoration-34OC0G { /* Set avatar decoration position near answer message */
+.repliedMessage_2i8Bfm + .contents_2i8Bfm > .avatarDecoration_2i8Bfm { /* Set avatar decoration position near answer message */
   margin-top: calc(-40px + -0.2rem);
 }
 /*#endregion Message*/
 
 /*#region Replied preview*/
-.repliedMessage-3Z6XBG {
+.repliedMessage_2i8Bfm {
   padding: 2px;
-  
+
   border-left: 2px solid;
   border-radius: 2px;
   padding-left: 6px;
 }
 
-.repliedMessage-3Z6XBG::before { /* Remove repled message "arrow" */
+.repliedMessage_2i8Bfm::before { /* Remove repled message "arrow" */
   display: none;
 }
 
-.repliedMessage-3Z6XBG { /* Move replied text preview to next line */
+.repliedMessage_2i8Bfm { /* Move replied text preview to next line */
   flex-wrap: wrap;
 }
-.repliedMessage-3Z6XBG > .repliedTextPreview-1bvxun {
+.repliedMessage_2i8Bfm > .repliedTextPreview_2i8Bfm {
   width: calc(100% - 24px); /* Preserve space for image thumbnail icon */
 }
 
-.repliedTextContent-2hOYMB { /* Fix add ... in the end of not fitting text */
+.repliedTextContent_2i8Bfm { /* Fix add ... in the end of not fitting text */
   display: unset;
 }
 
-.replyAvatar-sHd2sU,
-.executedCommandAvatar-3oOnb1 { /* Hide reply avatar */
+.replyAvatar_2i8Bfm,
+.executedCommandAvatar_2i8Bfm { /* Hide reply avatar */
   display: var(--cb-hide-replied-preview-avatar);
 }
 
-.executedCommand-14-SNW { /* Fix replied "message with command" preview height */
+.executedCommand_2i8Bfm { /* Fix replied "message with command" preview height */
   height: unset;
 }
 
@@ -107,68 +107,68 @@
 /*#endregion Replied preview*/
 
 /*#region Mentioned*/
-.mentioned-Tre-dv::before { /* Recreate mentioned style to have rounded corners */
+.mentioned_SY_P2T::before { /* Recreate mentioned style to have rounded corners */
   display: none;
 }
-.mentioned-Tre-dv {
+.mentioned_SY_P2T {
   border-left: var(--cb-mentioned-indicator-width) solid var(--info-warning-foreground);
 }
 
-.mentioned-Tre-dv .avatar-2e8lTP { /* Fix avatar indent when mentioned */
+.mentioned_SY_P2T .avatar_2i8Bfm { /* Fix avatar indent when mentioned */
   margin-left: calc(-4.5rem - var(--cb-mentioned-indicator-width));
 }
 /*#endregion Mentioned*/
 
 /*#region Replying*/
-.replying-eZ7p5z::before { /* Recreate replying style to have rounded corners */
+.replying_SY_P2T::before { /* Recreate replying style to have rounded corners */
   display: none;
 }
-.replying-eZ7p5z {
+.replying_SY_P2T {
   border-left: var(--brand-experiment) 2px solid;
 }
 
-.replying-eZ7p5z .avatar-2e8lTP { /* Fix avatar indent when replying */
+.replying_SY_P2T .avatar_2i8Bfm { /* Fix avatar indent when replying */
   margin-left: calc(-4.5rem - var(--cb-replying-indicator-width));
 }
 /*#endregion Replying*/
 
 /*#region Threads*/
-.container-3i3IzO {
+.container_g2fiji {
   background: var(--background-secondary-alt);
   width: -webkit-fill-available;
   margin-top: unset;
 }
 
-.hasThread-3h-KJV::after { /* Remove thread "arrow" */
+.hasThread_2i8Bfm::after { /* Remove thread "arrow" */
   display: none;
 }
 /*#endregion Threads*/
 
 /*#region Reactions*/
-.reaction-3vwAF2 { /* Add background to reactions */
+.reaction_UNkajC { /* Add background to reactions */
   background: var(--background-primary);
   border-color: hsla(0,calc(var(--saturation-factor, 1)*0%),100%,.2);
   margin-top: 5px;
 }
-.theme-light.reaction-3vwAF2 {
+.theme-light.reaction_UNkajC {
   border-color: hsla(0,calc(var(--saturation-factor, 1)*0%),0%,.2);
 }
 
-.reactions-3ryImn { /* Fix reactions bottom margin */
+.reactions_UNkajC { /* Fix reactions bottom margin */
   margin-bottom: -1px;
   padding-bottom: unset;
 }
-.reaction-3vwAF2 {
+.reaction_UNkajC {
   margin-bottom: unset;
 }
 
-.reactionBtn-3I19bq { /* Fix add reaction button bottom margin */
+.reactionBtn_MmKct8 { /* Fix add reaction button bottom margin */
   margin-bottom: unset;
 }
 /*#endregion Reactions*/
 
 /*#region Emoji*/
-.emojiContainer-2XKwXX {
+.emojiContainer_lTEMT6 {
   width: fit-content;
   height: fit-content;
 }
@@ -179,7 +179,7 @@
 /*#endregion Emoji*/
 
 /*#region Dividers*/
-.divider-IqmEqJ, .divider-2rZFJK { /* Fix dividers indents */
+.divider_SY_P2T, .divider_4TfzT5 { /* Fix dividers indents */
   position: relative;
   top: 0px !important;
   margin: 17px 0px !important;
@@ -187,46 +187,46 @@
 /*#endregion Dividers*/
 
 /*#region Alt-text*/
-.altText-sAs-Ao { /* Fix alt-text indents */
+.altText_j9Vvzj { /* Fix alt-text indents */
   margin: 10px 0 0 0px;
 }
-.altText-sAs-Ao:empty {
+.altText_j9Vvzj:empty {
   display: none;
 }
 /*#endregion Alt-text*/
 
 /*#region Quick-action buttons*/
-.buttonContainer-1502pf {
+.buttonContainer_2i8Bfm {
   display: var(--cb-hide-quick-action-buttons);
 }
 /*#endregion Quick-action buttons*/
 
 /*#region Embeds*/
-.container-2sjPya { /* Add gaps between embeds */
+.container_YUQhib { /* Add gaps between embeds */
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.reaction-3vwAF2 { /* Fix reactions top margin */
+.reaction_UNkajC { /* Fix reactions top margin */
   margin-top: unset;
 }
 
-.reactions-3ryImn { /* Fix reactions position */
+.reactions_UNkajC { /* Fix reactions position */
   width: 100%;
 }
 /*#endregion Embeds*/
 
 /*#region Images*/
-.imageWrapper-oMkQl4 {
+.imageWrapper__178ee {
   border-radius: 4px;
   overflow: hidden;
 }
-.imageContainer-10XenG + .altText-sAs-Ao { /* Hide image details */
+.imageContainer_j9Vvzj + .altText_j9Vvzj { /* Hide image details */
   display: none;
 }
 
-.messageAttachment-CZp8Iv .imageWrapper-oMkQl4 { /* Make images same width */
+.messageAttachment__5dae1 .imageWrapper__178ee { /* Make images same width */
   max-width: 350px !important;
 }
 /* Removed due to cropped imaged in preview bug, idk for what it was needed
@@ -235,16 +235,16 @@
  *   max-height: unset !important;
  * }
  */
-.messageAttachment-CZp8Iv {
+.messageAttachment__5dae1 {
   width: 100%;
 }
 /*#endregion Images*/
 
 /*#region Remove attachment buttons*/
-.imageContainer-10XenG {
+.imageContainer_j9Vvzj {
   position: relative;
 }
-.removeAttachmentButton-1iO1qS {
+.removeAttachmentButton__692b5 {
   z-index: 1;
 
   position: absolute;
