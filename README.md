@@ -1,3 +1,8 @@
+> [!NOTE]
+> **Maintained by [FDT – Fixed Discord Themes](https://github.com/fdt-themes).**
+> The original Chat Bubbles by Kaneko Qt is inactive since 2023 and broke with Discord's UI updates. This copy is updated for the current Discord.
+> All credit goes to Kaneko Qt. Original repo: [qt-kaneko/Chat-Bubbles](https://github.com/qt-kaneko/Chat-Bubbles)
+>
 # Chat Bubbles
 Chat bubbles is a lite Better Discord theme that adds bubbles for messages and nothing more:
 
