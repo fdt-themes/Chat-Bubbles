@@ -22,6 +22,16 @@
  * along with Chat Bubbles. If not, see <https://www.gnu.org/licenses/>.
  */
 
+/*
+ * FDT changes:
+ * 2026-11-24 - updated class names for the current Discord UI
+ *
+ * Maintained by FDT - https://github.com/fdt-themes/Chat-Bubbles
+ * Original theme by Kaneko Qt (qt-kaneko/Chat-Bubbles, inactive since 2023).
+ * Vozer's fork (slippinggitty-s-discord-things/Chat-Bubbles).
+ * Licensed under GPL-3.0-or-later.
+ */
+
 /*#region Settings*/
 :root {
   --cb-bubble-background: var(--background-secondary); /* Message bubble background */
